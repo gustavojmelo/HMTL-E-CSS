@@ -1,0 +1,60 @@
+h1{
+    color:blue;
+    font-size: 40px;
+}
+h2{
+    color:red;
+    font-size: 32px;
+}
+h3{
+    color:aquamarine;
+    font-size: 18px;
+}
+h1,h2,h3{
+    text-align: center;
+}
+p{
+    font-size: 22px;
+}
+
+body{
+    background-color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+ul>li{
+    display: inline-block;
+}
+
+ul>li>a{
+    padding: 15px;
+    background-color: aqua;
+    color:azure;
+    text-decoration: none;
+}
+
+ul>li>a:hover{
+    background-color: blue;
+    color: yellowgreen;
+    border-radius: 30px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 500px;
+    margin: 10px 50px;
+}

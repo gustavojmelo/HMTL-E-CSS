@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Idioma -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML5</title> <!-- título em cima no google -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1 style="color:blue; font-size: 100px;">Portal de notícias</h1> <!-- Título tamanho 1 -->
+        <p> <!-- Parágrafo -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae quidem debitis tempora ipsam nostrum explicabo unde, incidunt optio fuga excepturi aspernatur sed nam, eius architecto rerum earum, molestiae voluptate!
+        </p>
+    </header>
+    <nav> <!-- Menu Navegação -->
+        <a href="/">Home</a> <!-- Links -->
+        <a href="#">Produtos</a>
+        <a href="#">Raulzito</a>
+    </nav>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li><a href="noticias.html"target="_blank">Notícias do dia</a></li>
+        <li>
+            <a href="http://www.tempoagora.com.br"target="_blank">Tempo agora</a>
+        </li>
+        <li>
+            <a href="#Contatos">Fale conosco</a>
+        </li>
+    </ul>
+    <main> <!-- Conteúdo Principal -->
+        <section id="sessao_1"> <!-- Sessão dentro do conteúdo principal -->
+            <h1>Título Principal</h1>
+            <img src="imagens/ednaldo.png" alt="Uma foto de um fodão"/>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet vel corporis voluptatibus fuga sapiente eligendi repudiandae quidem quam? Nobis numquam voluptas eos magnam necessitatibus doloribus accusamus libero tenetur cupiditate!
+            </p>
+            <h2>As notícias mais quentes de são leopoldo</h2>
+            
+            <div id="Contatos">
+                <h2>Fale conosco</h2>
+                <h3>Conte para nós como foi sua experiência em nosso site</h3>
+                <form action="processa.php" method="post">
+                    <label for="nome">Digite o seu nome</label>
+                    <input type="text" name="nome" id="nome"/>
+                    <br>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+            <img src="imagens/pato.jpg" alt="Foto do animal mais perigoso da natureza">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugiat voluptatum pariatur illum rerum totam, dolorum autem consequuntur quibusdam id, repellat iure libero nesciunt explicabo molestiae reprehenderit illo nobis maxime.
+            </p>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>Criado por Teuzin </p>
+    </footer>
+</body>
+</html>
